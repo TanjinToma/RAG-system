@@ -34,13 +34,13 @@ Traditional LLMs rely solely on pre-trained knowledge, often hallucinating when 
 
 ## Project Structure
 
-
+```
 DocuQuery-RAG/
  │
  ├── DocuQuery_RAG.ipynb # Main Colab notebook (RAG vs. LLM-only generation)
  ├── requirements.txt # (optional) List of dependencies
  └── README.md # Project overview and setup guide
-
+```
 ---
 
 ## 💻 Running the Notebook
