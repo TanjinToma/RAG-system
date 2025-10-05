@@ -35,7 +35,7 @@ Traditional LLMs rely solely on pre-trained knowledge, often hallucinating when 
 ## Project Structure
 
 ```
-DocuQuery-RAG/
+RAG-system/
  │
  ├── DocuQuery_RAG.ipynb # Main Colab notebook (RAG vs. LLM-only generation)
  ├── requirements.txt # (optional) List of dependencies
@@ -50,8 +50,20 @@ DocuQuery-RAG/
 3. Install dependencies:
    ```bash
    !pip install faiss-cpu sentence-transformers transformers accelerate huggingface_hub
+   
+4. Authenticate with Hugging Face Hub
 
-4. Run all cells in order to build the index and interact with the RAG system.
+- Visit https://huggingface.co/settings/tokens
+- Create a new access token (at least “Read” permission).
+- Log in inside the notebook using:
+  ```python
+    from huggingface_hub import login
+    login(token="your-HF-token")
+  ```
+5. Run all cells in order to build the index and interact with the RAG system.
+
+
+
 
 
 
