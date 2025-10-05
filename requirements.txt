@@ -1,0 +1,21 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.42.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+wikipedia-api>=0.6.0
+huggingface-hub>=0.23.0
+
+# Data and utilities
+numpy>=1.26.0
+pandas>=2.2.0
+datasets>=2.19.0
+
+# Visualization / plotting (optional)
+matplotlib>=3.8.0
+
+# Environment helpers
+tqdm>=4.66.0
+
+# Optional: For Colab/Drive integration
+google-colab

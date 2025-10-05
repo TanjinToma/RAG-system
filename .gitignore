@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Colab and Hugging Face cache
+/content/
+drive/
+HF_models_cache/
+transformers_cache/
+~/.cache/
+~/.huggingface/
+
+# Large model files and data
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.safetensors
+*.pkl
+*.zip
+*.tar.gz
+*.npy
+*.npz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# VS Code / IDE configs
+.vscode/
+.idea/
+
